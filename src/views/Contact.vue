@@ -19,7 +19,7 @@
                                 <li>联系人：{{this.$store.state.contacts}}
  </li>
                                 <li>电&nbsp;话：{{this.$store.state.number}}</li>
-                                <li>Q&nbsp;Q：{{this.$store.state.QQ}}</li>
+                                <li>{{this.$store.state.contact}}&nbsp;：{{this.$store.state.QQ}}</li>
                                 <li>地&nbsp;址： {{this.$store.state.address}}
 
   &nbsp;&nbsp;</li>

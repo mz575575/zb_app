@@ -7,7 +7,7 @@
           © 2020 {{this.$store.state.companyName}}保留所有权利 <span style="color:#171717">{{this.$store.state.space}}</span>
           公司地址： {{this.$store.state.address}} <span style="color:#171717">{{this.$store.state.space}}</span>
           联系电话：{{this.$store.state.number}}<span style="color:#171717">{{this.$store.state.space}}</span>
-          QQ：{{this.$store.state.QQ}} 
+          {{this.$store.state.contact}}：{{this.$store.state.QQ}} 
         </p>
 
         <div class="line-style"></div>
